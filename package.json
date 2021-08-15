@@ -1,0 +1,28 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "Chat App with NodeJS",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "env-cmd -f ./config/dev.env nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaharidy/chat-app.git"
+  },
+  "author": "Abdo Haridy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aaharidy/chat-app/issues"
+  },
+  "homepage": "https://github.com/aaharidy/chat-app#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.1.3"
+  },
+  "devDependencies": {
+    "env-cmd": "^10.1.0",
+    "nodemon": "^2.0.12"
+  }
+}
